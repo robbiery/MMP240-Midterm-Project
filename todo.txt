@@ -1,0 +1,7 @@
+parts of the website:
+- starting page: click on the tardis to open about
+- about page:
+    * CONVERT IMAGES TO JPG OR PNG
+    - header: tardis image in space that i have saved with doctor who logo
+    - footer: the doctor stuck to the ground on the right hand side
+    - 

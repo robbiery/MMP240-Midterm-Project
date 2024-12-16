@@ -1,0 +1,11 @@
+body {
+    background-size: 20%;
+    background-image: url('images/A-32K-Digital-Art-8K-Galaxy-Galactic-Repeating-Pattern-59437139-1.png');
+  }
+
+#wrapper {
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
