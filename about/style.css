@@ -14,18 +14,20 @@
 .header p{
   color:white;
   width:25%;
+  display:inline-block;
 }
 
 /* How to code a button in CSS */
 .btn {
-    /*
-    display inline block
-    border to look like a button
-    */
     display: inline-block;
-    border-color: white;
-    border-width: 5px;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    color:#fff;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
+/* Issue: play button not aligning with header text */
 
 .btn:hover {
     /* background-color: #hoverclr */
