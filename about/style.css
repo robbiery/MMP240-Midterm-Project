@@ -3,7 +3,7 @@
 
     background:
         linear-gradient(90deg, #000 0%, #000 33%, rgba(0, 0, 0, 0.00) 40%, rgba(0, 0, 0, 0.00) 100%), 
-        url('headeR.png') no-repeat top right/70%, black;
+        url('headeR.png') no-repeat center right/70%, black;
 }
 
 #logo{
@@ -13,8 +13,9 @@
 
 .header p{
   color:white;
-  width:25%;
-  display:inline-block;
+  width:50%;
+  float:left;
+  margin-right:1em;
 }
 
 /* How to code a button in CSS */
@@ -26,6 +27,7 @@
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
+
 }
 /* Issue: play button not aligning with header text */
 
@@ -68,4 +70,21 @@ body {
 
 .about h4 {
     font-style: oblique;
+    font-weight: bolder;
+}
+
+.about h5 {
+    font-style: oblique;
+}
+
+.col {
+    width:48%;
+}
+
+.col-left{
+    float:left;
+}
+
+.col-right{
+    float:right;
 }
