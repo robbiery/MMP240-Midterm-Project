@@ -63,11 +63,27 @@ body {
     background-color:rgb(202, 172, 198);
 }
 
-.episodes {
+.about {
     background-color: white;
     padding: 1em 2em;
 }
 
-.episodes h3 {
+.about h4 {
     font-style: oblique;
+    font-weight: bolder;
+}
+
+.episodes{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.episode-card{
+    width:24%;
+}
+
+.responsive-img{
+    width:100%;
 }
