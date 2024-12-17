@@ -88,3 +88,8 @@ body {
 .col-right{
     float:right;
 }
+
+footer{
+    clear:both;
+    margin-top:1em;
+}
